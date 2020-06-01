@@ -28,13 +28,13 @@ public class PalavraChave {
         inputFile.close();
 
         // A partir  do arraylist seleciona uma palavra randomica
-        palavraChave = palavras.get((int) (Math.random() * palavras.size()));
+        palavraChave = palavras.get((int) (Math.random() * palavras.size())).toLowerCase();
         setPalavraChave(palavraChave);
         montaDica();
     }
 
     protected void montaDica(){
-        for (int cont = 0; cont <getPalavraChave().length();cont++){
+        for (int cont = 0; cont < getPalavraChave().length();cont++){
             dica.add(" _ ");
         }
         setDica(dica);

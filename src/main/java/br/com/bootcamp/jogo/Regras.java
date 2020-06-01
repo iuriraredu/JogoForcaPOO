@@ -8,7 +8,7 @@ public class Regras {
     private ArrayList<String> dica = new ArrayList<String>();
     private PalavraChave palavraChave = new PalavraChave();
     private static int pontuacao = 10;
-    private static boolean acertou = false;
+    private static boolean acertou;
 
     public void selecionaDificuldadeJogo(){
         Scanner in = new Scanner(System.in);
@@ -23,13 +23,12 @@ public class Regras {
                 palavraChave.escolhePalavraChave("listaNormal");
                 break;
             case "D":
-                palavraChave.escolhePalavraChave("listaFacil");
+                palavraChave.escolhePalavraChave("listaDificil");
                 break;
             default:
                 System.out.println("Por Favor selecione uma opção válida.");
                 System.exit(0);
         }
-
     }
 
     public void validaLetraInserida(String letraDigitada){
@@ -37,6 +36,7 @@ public class Regras {
         int qtdLetras = palavraChave.getPalavraChave().length();
         dica = palavraChave.getDica();
         int i = 0;
+        acertou = false;
 
         while (i < qtdLetras){
             if (listaLetrasCorretas[i].equals(letraDigitada)){
@@ -46,6 +46,7 @@ public class Regras {
             }
             i++;
         }
+
         validaPalavra();
         controlaPontuacao(pontuacao);
         palavraChave.setDica(dica);
@@ -59,13 +60,15 @@ public class Regras {
     }
 
     private void controlaPontuacao (int pontuacao){
-        this.pontuacao = !acertou ? pontuacao -1 : pontuacao;
+        this.pontuacao = (acertou ? pontuacao : pontuacao - 1);
 
+        /*
         if (!acertou){
             this.pontuacao = pontuacao -1;
         }else{
             this.pontuacao = pontuacao;
         }
+        */
 
         System.out.println("Vida(s): "+this.pontuacao);
 

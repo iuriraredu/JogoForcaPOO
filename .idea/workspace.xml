@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a90d80d-8d7a-4a64-b0df-f1788ec37130" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bootcamp/jogo/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bootcamp/jogo/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bootcamp/jogo/PalavraChave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bootcamp/jogo/PalavraChave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bootcamp/jogo/Regras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bootcamp/jogo/Regras.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,35 +96,72 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1590795851016">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590795851016" />
-    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1590799690569">
+    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1591015408007">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590799690569" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1590800323351">
+    <state x="488" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1591015408007" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1591015507146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590800323351" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1590800323350">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590800630295" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1591015507146" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1591015507146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590800323350" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1590800323350">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590800630295" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1591015507146" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1591015507146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590800323350" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1590800323351">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590800630295" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1591015507146" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1591015507146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590800323351" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590800630295" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1591015507146" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1591015099515">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1591015099515" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1591015099515">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1591015099515" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1591015099515">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1591015099515" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1591015099515">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1591015099515" />
+    <state x="252" y="98" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591014882730">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="252" y="98" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.738@0.0.1366.738" timestamp="1591014882730" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1590798123507">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738/1366.0.1600.870@0.0.1366.738" timestamp="1590798123507" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/bootcamp/jogo/PalavraChave.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
